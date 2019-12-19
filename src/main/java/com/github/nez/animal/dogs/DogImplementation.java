@@ -1,6 +1,6 @@
-package com.github.nez.dogs;
+package com.github.nez.animal.dogs;
 
- public class DogImplementation implements DogInterface {
+ public final class DogImplementation implements DogInterface {
      // to make life easier down the road I should make this DogImplementation abstract , but I don't wanna extend
      // ↓↓↓ how to do ?? ↓↓↓ , no way huh ??
      Boolean alive;

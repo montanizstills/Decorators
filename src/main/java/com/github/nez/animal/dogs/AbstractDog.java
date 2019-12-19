@@ -1,23 +1,14 @@
-package com.github.nez.dogs;
+package com.github.nez.animal.dogs;
 
-public class Dog implements DogInterface {
-
-    private Boolean alive;
+public class AbstractDog implements DogInterface {
     private  DogInterface dogInterface;
     private String tail;
     private Integer numberOfPaws;
 
-
-    public Dog(){
-        this(new DogImplementation());
-    }
-
-    //Kill two birds with one stone making two constructors without a parameter and with different interfaces.
-
-    public Dog(DogInterface dogInterface){
+    //specific type of dog
+    public AbstractDog(DogInterface dogInterface){
         this.dogInterface=dogInterface;
     }
-
 
     public String bark() {
         return this.dogInterface.bark();
@@ -31,19 +22,18 @@ public class Dog implements DogInterface {
         return this.dogInterface.run();
     }
 
+
     public void changeDogType(DogInterface newDogInterface){
         this.dogInterface=newDogInterface;
     }
 
     @Override
     public Boolean hasLiveBirth() {
-        return true;
+        return this.dogInterface.hasLiveBirth();
     }
 
     @Override
     public Boolean isAlive() {
-        //return the DogImplementation.alive, bc Dog is just a wrapper class, dog will never "exist", just a DogImplementation wearing a costume
-        //return super.alive;
-        return alive;
+        return this.dogInterface.isAlive();
     }
 }

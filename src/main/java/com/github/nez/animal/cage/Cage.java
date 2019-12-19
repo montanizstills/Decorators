@@ -1,6 +1,7 @@
-package com.github.nez.cage;
+package com.github.nez.animal.cage;
 
-import com.github.nez.dogs.AnimalInterface;
+import com.github.nez.animal.AnimalInterface;
+
 import java.util.List;
 
 public class Cage <AnimalType extends AnimalInterface> {

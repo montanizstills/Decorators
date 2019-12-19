@@ -1,4 +1,4 @@
-package com.github.nez.dogs;
+package com.github.nez.animal.dogs.concretedogs;
 
 public class ChihuahuaImplementation implements DogInterface {
     @Override

@@ -1,8 +1,9 @@
 package com.github.nez;
-import com.github.nez.cage.Cage;
-import com.github.nez.dogs.*;
+import com.github.nez.animal.cage.Cage;
+import com.github.nez.animal.dogs.AbstractDog;
+import com.github.nez.animal.dogs.concretedogs.ChihuahuaImplementation;
+import com.github.nez.animal.dogs.concretedogs.GoldenRetrieverImplementation;
 
-import java.util.List;
 
 public class MainApplication {
 
@@ -10,15 +11,15 @@ public class MainApplication {
 
     public static void main(String[] args){
 
-        Cage<Dog> cage2 = new Cage();
+        Cage<AbstractDog> cage2 = new Cage();
 
-        Dog goldenRetriever = new Dog(new GoldenRetrieverImplementation());
+        AbstractDog goldenRetriever = new AbstractDog(new GoldenRetrieverImplementation());
         System.out.println(goldenRetriever.bark());
 
-        Dog chihuahua = new Dog(new ChihuahuaImplementation());
+        AbstractDog chihuahua = new AbstractDog(new ChihuahuaImplementation());
         System.out.println(chihuahua.bark());
 
-        Dog confusedDog = new Dog();
+        AbstractDog confusedDog = new AbstractDog();
         System.out.println(confusedDog.bark());
 
         confusedDog.changeDogType(new GoldenRetrieverImplementation());
@@ -26,6 +27,9 @@ public class MainApplication {
 
         cage1.add(chihuahua);
         cage2.add(goldenRetriever);
+
+
+        AbstractDog pitbull = new AbstractDog(new PitBull());
 
     }
 }

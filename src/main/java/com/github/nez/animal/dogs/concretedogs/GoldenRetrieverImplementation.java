@@ -1,6 +1,10 @@
-package com.github.nez.dogs;
+package com.github.nez.animal.dogs.concretedogs;
 
 public class GoldenRetrieverImplementation implements DogInterface {
+
+    //goldenRetriever can isAlive() but does not have an alive state. how can i check
+    // Dog goldenRetriever = new Dog(new GoldenRetrieverImplementation).isAlive(), if isAlive() returns DogImplementation.alive ??
+    // GoldenRetrieverImplementation is not an extension of DogImplementation so there is no field, i.e isAlive == falsy.
 
     @Override
     public String bark() {

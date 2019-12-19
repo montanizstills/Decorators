@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f826455-8c45-412b-bce3-5af39ff25d42" name="Default Changelist" comment="" />
+    <list default="true" id="1f826455-8c45-412b-bce3-5af39ff25d42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/cage/Cage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/AnimalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/MammalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/bark/bark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/ChihuahuaImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/ChihuahuaImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/DogImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/DogImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/DogInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/DogInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/GoldenRetrieverImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/GoldenRetrieverImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/Pitbull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/nez/dogs/Pitbull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/ChihuahuaImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/DogImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/DogInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/GoldenRetrieverImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/MainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/nez/Pitbull.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +36,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VABXtx70lrQTcCh1VOcnXxLXx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maven.numbers-triangles-tables/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.nez.cage" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -61,5 +93,16 @@
       <updated>1576686061466</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,7 +1,7 @@
 package com.github.nez.dogs;
 
-public interface DogInterface {
-    public String bark();
-    public String sit();
-    public String run();
+public interface DogInterface extends MammalInterface {
+     String bark();
+     String sit();
+     String run();
 }

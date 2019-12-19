@@ -16,4 +16,14 @@ public class GoldenRetrieverImplementation implements DogInterface {
     public String run() {
         return "I am running like a golden retriever...";
     }
+
+    @Override
+    public Boolean hasLiveBirth() {
+        return null;
+    }
+
+    @Override
+    public Boolean isAlive() {
+        return null;
+    }
 }

@@ -2,7 +2,11 @@ package com.github.nez.dogs;
 
 public class Dog implements DogInterface {
 
+    private Boolean alive;
     private  DogInterface dogInterface;
+    private String tail;
+    private Integer numberOfPaws;
+
 
     public Dog(){
         this(new DogImplementation());
@@ -27,11 +31,19 @@ public class Dog implements DogInterface {
         return this.dogInterface.run();
     }
 
-    public void changeBark(DogInterface newBarker){
-        this.dogInterface = newBarker;
-    }
-
     public void changeDogType(DogInterface newDogInterface){
         this.dogInterface=newDogInterface;
+    }
+
+    @Override
+    public Boolean hasLiveBirth() {
+        return true;
+    }
+
+    @Override
+    public Boolean isAlive() {
+        //return the DogImplementation.alive, bc Dog is just a wrapper class, dog will never "exist", just a DogImplementation wearing a costume
+        //return super.alive;
+        return alive;
     }
 }

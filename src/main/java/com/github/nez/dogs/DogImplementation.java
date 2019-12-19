@@ -1,6 +1,9 @@
 package com.github.nez.dogs;
 
  public class DogImplementation implements DogInterface {
+     // to make life easier down the road I should make this DogImplementation abstract , but I don't wanna extend
+     // ↓↓↓ how to do ?? ↓↓↓ , no way huh ??
+     Boolean alive;
 
      public String bark() { return "I am barking like any dog..."; }
 
@@ -10,6 +13,16 @@ package com.github.nez.dogs;
 
      public String run() {
          return "I am king like any dog...";
+     }
+
+     @Override
+     public Boolean hasLiveBirth() {
+         return true;
+     }
+
+     @Override
+     public Boolean isAlive() {
+         return alive;
      }
  }
 

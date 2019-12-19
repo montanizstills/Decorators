@@ -15,4 +15,14 @@ public class ChihuahuaImplementation implements DogInterface {
     public String run() {
         return "I have small dog syndrome.";
     }
+
+    @Override
+    public Boolean hasLiveBirth() {
+        return null;
+    }
+
+    @Override
+    public Boolean isAlive() {
+        return null;
+    }
 }

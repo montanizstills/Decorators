@@ -1,4 +1,6 @@
-package com.github.nez.animal.dogs.concretedogs;
+package com.github.nez.animal.dogs.concretedogs.implementations;
+
+import com.github.nez.animal.dogs.DogInterface;
 
 public class GoldenRetrieverImplementation implements DogInterface {
 

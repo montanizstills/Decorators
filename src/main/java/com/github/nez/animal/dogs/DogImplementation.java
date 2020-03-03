@@ -24,6 +24,7 @@ package com.github.nez.animal.dogs;
      public Boolean isAlive() {
          return alive;
      }
+
  }
 
  //is this needed to set up the skeleton of future types of dog's implementation.

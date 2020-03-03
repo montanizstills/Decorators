@@ -1,14 +1,20 @@
 package com.github.nez.animal.dogs;
 
 public class AbstractDog implements DogInterface {
-    private  DogInterface dogInterface;
-    private String tail;
-    private Integer numberOfPaws;
 
-    //specific type of dog
+    private  DogInterface dogInterface;
+    public String tail="my tail";
+    public String paws;
+
+
+//  specific type of dog
     public AbstractDog(DogInterface dogInterface){
         this.dogInterface=dogInterface;
     }
+
+//    killed --> cannot instantiate abstract dog. What is an AbstractDog, that is what is a dog?
+//    kill this nullary constructor, allows for "emptyDog" construction.
+//    public AbstractDog(){this(new DogImplementation());}
 
     public String bark() {
         return this.dogInterface.bark();
